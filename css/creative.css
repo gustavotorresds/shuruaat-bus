@@ -230,3 +230,12 @@ header.masthead {
     background-color: #ee4b28 !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+
+.engagement-list {
+  text-align: left;
+  list-style-type: none;
+}
+
+.promo-number {
+  font-size: 1.5rem;
+}
