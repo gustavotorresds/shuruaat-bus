@@ -40,10 +40,10 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Stops</a>
+              <a class="nav-link js-scroll-trigger" href="#journey">Journey</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Partners</a>
+              <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -55,19 +55,33 @@
 
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
+        <video poster="img/Main_Street.jpg" id="bgvid" playsinline autoplay muted loop>
+          <!-- Code From: https://codepen.io/dudleystorey/pen/knqyK  -->
+          <!-- Video From: https://coverr.co/ -->
+          <source src="img/Main_Street.mp4" type="video/webm">
+        </video>
+        <div class="video-layer">
+        </div>
+
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
               <strong>Shuruaat Bus</strong>
             </h1>
             <hr>
+
+              <p><a href="#media-popup" data-media="img/Main_Street.mp4"><i class="fa fa-play-circle fa-5x" aria-hidden="true"></i></a></p>
+              <div class="popup" id="media-popup">
+                  <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+              </div>
+
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Make impact at scale through entrepreneurship, and empower citizens to become creators of wealth and jobs by leveraging the excitement around the Global Entrepreneurship Summit 2017.
             </p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About</a>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Stops</a>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">News</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#journey">Journey</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#">News</a>
           </div>
         </div>
       </div>
@@ -162,16 +176,16 @@
       </div>
     </section>
 
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
+    <section class="p-0" id="journey">
+      <div class="container-fluid p-0 bg-dark">
         <div class="row no-gutters">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="http://www.facebook.com" target="blank">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/new-delhi.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Nov 11-Nov 13
+                    Nov 14
                   </div>
                   <div class="project-name">
                     Delhi-NCR
@@ -181,12 +195,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/jaipur2.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Nov 14
+                    Nov 15
                   </div>
                   <div class="project-name">
                     Jaipur
@@ -196,12 +210,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/amhedabad.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Nov 16
+                    Nov 17
                   </div>
                   <div class="project-name">
                     Ahmedabad 
@@ -211,12 +225,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/mumbai.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Nov 19-Nov 20
+                    Nov 19
                   </div>
                   <div class="project-name">
                     Mumbai
@@ -226,12 +240,12 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/pune.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Nov 21
+                    Nov 20
                   </div>
                   <div class="project-name">
                     Pune
@@ -241,15 +255,120 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/bengaluru.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Nov 21
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Bengaluru
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/hyderabad.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Nov 26, Nov 27
+                  </div>
+                  <div class="project-name">
+                    Hyderabad
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Dec 1
+                  </div>
+                  <div class="project-name">
+                    Raipur
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/bhubaneswar.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Dec 3
+                  </div>
+                  <div class="project-name">
+                    Bhubaneshwar
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Dec 5
+                  </div>
+                  <div class="project-name">
+                    Kolkata
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Dec 7
+                  </div>
+                  <div class="project-name">
+                    Ranchi
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Dec 9
+                  </div>
+                  <div class="project-name">
+                    Patna
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="#">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Dec 11
+                  </div>
+                  <div class="project-name">
+                    Lucknow
                   </div>
                 </div>
               </div>
@@ -259,12 +378,33 @@
       </div>
     </section>
 
-    <!-- <section class="bg-dark text-white">
-      <div class="container text-center">
+    <section id="partners">
+      <div class="container-fluid text-center">
         <h2 class="mb-4">Partners</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+        <p>Driven By, Fueled By, Mobilised By</p>
+        <hr class="my-4">
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <img class="img-fluid" src="img/partners/gci.png" alt="">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img class="img-fluid" src="img/partners/ja.png" alt="">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img class="img-fluid" src="img/partners/aim.png" alt="">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img class="img-fluid" src="img/partners/dharma.png" alt="">
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <img class="img-fluid" src="img/partners/niti.png" alt="">
+          </div>
+        </div>
+        <!-- <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a> -->
+
       </div>
-    </section> -->
+    </section>
 
     <section id="contact">
       <div class="container">
@@ -300,7 +440,7 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+    <script src="js/creative.js"></script>
 
   </body>
 
