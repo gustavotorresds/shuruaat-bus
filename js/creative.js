@@ -81,14 +81,14 @@
       
       $popupIframe.attr("src", videoUrl);
       
-      $this.closest(".masthead").addClass("show-popup");
+      $this.closest(".page").addClass("show-popup");
   });
 
   $(".popup").on("click", function(e) {
       e.preventDefault();
       e.stopPropagation();
       
-      $(".masthead").removeClass("show-popup");
+      $(".page").removeClass("show-popup");
   });
 
   $(".popup > iframe").on("click", function(e) {
