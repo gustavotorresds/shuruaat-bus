@@ -231,9 +231,11 @@ header.masthead {
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
 
-.engagement-list {
-  text-align: left;
-  list-style-type: none;
+.engagement-list > p {
+  margin: 0;
+  /*text-align: left;*/
+  /*font-size: .9rem;*/
+  /*list-style-type: none;*/
 }
 
 .promo-number {
@@ -270,7 +272,7 @@ video {
 }
 
 .video-layer {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     z-index: -1;
     top: 0;

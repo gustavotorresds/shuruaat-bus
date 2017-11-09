@@ -95,4 +95,8 @@
       e.stopPropagation();
   });
 
+  $('.play-popup').magnificPopup({
+    type: 'iframe'
+    // other options
+  });
 })(jQuery); // End of use strict
