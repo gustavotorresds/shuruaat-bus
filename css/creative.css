@@ -314,15 +314,34 @@ iframe, object, embed {
     max-width: 100%;
 }
 
-#mc_embed_signup {
+.mc-signup {
   background: none;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif; 
 }
 
-#mc_embed_signup_scroll {
+.mc-scroll {
   text-align: left;
 }
 
-.mc-field-group > input {
+.mc-group {
+  margin-bottom: .5rem;
+}
+
+.mc-group ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.mc-group ::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.mc-group :-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.mc-group :-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+.mc-group > input {
   width: 100%;
   border: none;
   padding: .5rem;
@@ -332,7 +351,7 @@ iframe, object, embed {
   color: white;
 }
 
-.mc-field-group > input:focus { 
+.mc-group > input:focus { 
   outline: none;
   border-bottom: .1rem solid #F05F40;
 }
@@ -349,21 +368,4 @@ input[type=submit] {
 input[type=submit]:hover {
   color: #212529;
   background: white;   
-}
-
-.mc-field-group {
-  margin-bottom: .5rem;
-}
-
-.mc-field-group ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: white;
-}
-.mc-field-group ::-moz-placeholder { /* Firefox 19+ */
-  color: white;
-}
-.mc-field-group :-ms-input-placeholder { /* IE 10+ */
-  color: white;
-}
-.mc-field-group :-moz-placeholder { /* Firefox 18- */
-  color: white;
 }
