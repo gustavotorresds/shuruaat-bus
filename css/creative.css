@@ -216,20 +216,39 @@ header.masthead {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 300px;
+  /*border-radius: 300px;*/
+  border-radius: 0;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .btn-xl {
   padding: 1rem 2rem; }
 
 .btn-primary {
+  border: 1px solid #F05F40;
+  background: none;
+}
+
+.btn-primary:hover {
+  border: 1px solid #F05F40;
+  background-color: #F05F40 !important;
+}
+
+.btn-primary:focus, .btn-primary:active {
+  border: none;
+  outline: 0;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+
+/*.btn-primary {
   background-color: #F05F40;
   border-color: #F05F40; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
     background-color: #ee4b28 !important; }
   .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }*/
 
 .engagement-list > p {
   margin: 0;
@@ -363,9 +382,37 @@ input[type=submit] {
     border: .1rem solid #ffffff;
     cursor: pointer;
     color: white;
+    transition: .3s;
 }
 
 input[type=submit]:hover {
   color: #212529;
   background: white;   
+}
+
+footer.mastfoot {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /*background-image: url("../img/bus-road2.png");*/
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: white;
+  color: #212529;
+  text-align: center;
+}
+
+.fa-heart {
+  color: #CC3233;
+}
+
+.fa-play-circle {
+  color: #F05F40;
+  transition: .5s;
+}
+
+.fa-play-circle:hover {
+  color: #ee4b28;
 }
