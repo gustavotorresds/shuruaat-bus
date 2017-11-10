@@ -252,9 +252,6 @@ header.masthead {
 
 .engagement-list > p {
   margin: 0;
-  /*text-align: left;*/
-  /*font-size: .9rem;*/
-  /*list-style-type: none;*/
 }
 
 .promo-number {
@@ -272,7 +269,7 @@ video {
   height: auto;
   z-index: -100;
   background-size: cover;
-  transform: translateX(-50%) translateY(-50%)  ;
+  transform: translateX(-50%) translateY(-50%);
   transition: 1s opacity;
 }
 
@@ -298,42 +295,6 @@ video {
     left: 0;
     width: 100%;
     height: 100%;
-    /*background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    background-size: cover;
-    transform: translateX(-50%) translateY(-50%);*/
-}
-
-.popup {
-    position:fixed;
-    z-index:2;
-    top:0;
-    left:0;
-    width: 100vw;
-    height: 100vh;
-    background:rgba(0,0,0,0.7);
-    opacity:0;
-    visibility:hidden;
-    transition:.3s ease;
-}
-
-.show-popup .popup {
-    opacity:1;
-    visibility: visible;    
-}
-
-.popup > iframe {
-    position:absolute;
-    top:  50px;
-    left:50%;
-    margin-left:-280px;
 }
 
 .mailchimp-form {
@@ -404,7 +365,6 @@ input[type=submit]:hover {
 footer.mastfoot {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  /*background-image: url("../img/bus-road2.png");*/
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -431,4 +391,13 @@ footer.mastfoot {
 .vertical-center {
   display: flex;
   align-items: center;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
 }
