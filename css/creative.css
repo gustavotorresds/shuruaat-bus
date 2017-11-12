@@ -44,6 +44,9 @@ h6 {
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
 
+.text-faded-black {
+  color: rgba(0, 0, 0, 0.7); }
+
 section {
   padding: 8rem 0; }
 
@@ -178,8 +181,8 @@ header.masthead {
     height: 100%;
     text-align: center;
     opacity: 0;
-    color: #fff;
-    background: rgba(0,184,169, 0.9);
+    color: #f6416c;
+    background: rgba(255,222,125, 0.9);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
@@ -224,13 +227,13 @@ header.masthead {
   padding: 1rem 2rem; }
 
 .btn-primary {
-  border: 1px solid #00B8A9;
+  border: 1px solid #f6416c;
   background: none;
 }
 
 .btn-primary:hover {
-  border: 1px solid #00B8A9;
-  background-color: #00B8A9 !important;
+  border: 1px solid #f6416c;
+  background-color: #f6416c !important;
 }
 
 .btn-primary:focus, .btn-primary:active {
@@ -380,12 +383,12 @@ footer.mastfoot {
 }
 
 .fa-play-circle {
-  color: #00B8A9;
+  color: #f6416c;
   transition: .5s;
 }
 
 .fa-play-circle:hover {
-  color: #00B8A9;
+  color: #d6416c;
 }
 
 .vertical-center {
