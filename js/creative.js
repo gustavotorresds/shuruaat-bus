@@ -81,4 +81,21 @@
     type:'inline',
     midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
   });
+
+  setTimeout(function(){
+    $.magnificPopup.open({
+          items:{
+              src: '#start-popup',
+              type: 'inline'
+          },
+          fixedContentPos: true,
+          fixedBgPos: true,
+          overflowY: 'auto',
+          closeBtnInside: true,
+          preloader: false,
+          midClick: true,
+          removalDelay: 300,
+          mainClass: 'mfp-fade'
+      });
+  }, 2000);
 })(jQuery); // End of use strict

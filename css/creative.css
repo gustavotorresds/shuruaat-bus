@@ -20,12 +20,12 @@ hr.light {
   border-color: #fff; }
 
 a {
-  color: #00B8A9;
+  color: #ffde7d;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:hover {
-    color: #00B8A9; }
+    color: #ffde7d; }
 
 h1,
 h2,
@@ -323,16 +323,16 @@ iframe, object, embed {
 }
 
 .mc-group ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: white;
+  color: #212529;
 }
 .mc-group ::-moz-placeholder { /* Firefox 19+ */
-  color: white;
+  color: #212529;
 }
 .mc-group :-ms-input-placeholder { /* IE 10+ */
-  color: white;
+  color: #212529;
 }
 .mc-group :-moz-placeholder { /* Firefox 18- */
-  color: white;
+  color: #212529;
 }
 
 .mc-group > input {
@@ -341,8 +341,8 @@ iframe, object, embed {
   padding: .5rem;
   margin: 0;
   background: none;
-  border-bottom: .1rem solid #ffffff;
-  color: white;
+  border-bottom: .1rem solid #212529;
+  color: #212529;
 }
 
 .mc-group > input:focus { 
@@ -354,15 +354,15 @@ input[type=submit] {
     width: 100%;
     padding: 1rem; 
     background: none;
-    border: .1rem solid #ffffff;
+    border: .1rem solid #212529;
     cursor: pointer;
-    color: white;
+    color: #212529;
     transition: .3s;
 }
 
 input[type=submit]:hover {
-  color: #212529;
-  background: white;   
+  color: #FFDE7D;
+  background: #212529;   
 }
 
 footer.mastfoot {
@@ -405,6 +405,48 @@ footer.mastfoot {
   margin: 20px auto;
 }
 
+.start-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
 .text-blue {
   color: #F8F3D4;
 }
@@ -415,4 +457,9 @@ footer.mastfoot {
 
 .bg-yellow {
   background-color: #FFDE7D !important;
+}
+
+.partner {
+  top: 0;
+  height: 100%;
 }
