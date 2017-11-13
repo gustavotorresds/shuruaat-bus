@@ -227,8 +227,9 @@ header.masthead {
   padding: 1rem 2rem; }
 
 .btn-primary {
-  border: 1px solid #f6416c;
-  background: none;
+  color: #f6416c;
+  /*border: 1px solid #f6416c;*/
+  background: rgba(255, 255, 255, 1);
 }
 
 .btn-primary:hover {
@@ -291,7 +292,7 @@ video {
 }
 
 .video-layer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.75);
     position: fixed;
     z-index: -1;
     top: 0;
@@ -462,4 +463,8 @@ footer.mastfoot {
 .partner {
   top: 0;
   height: 100%;
+}
+
+.big-space {
+  /*margin-top: 80px;*/
 }
