@@ -233,7 +233,6 @@ header.masthead {
 }
 
 .btn-primary:hover {
-  border: 1px solid #f6416c;
   background-color: #f6416c !important;
 }
 
@@ -302,7 +301,7 @@ video {
 }
 
 .mailchimp-form {
-  padding: 2rem 0;
+  /*padding: 2rem 0;*/
 }
 
 iframe, object, embed {
@@ -351,15 +350,6 @@ iframe, object, embed {
   border-bottom: .1rem solid #00B8A9;
 }
 
-input[type=submit] {
-    width: 100%;
-    padding: 1rem; 
-    background: none;
-    border: .1rem solid #212529;
-    cursor: pointer;
-    color: #212529;
-    transition: .3s;
-}
 
 input[type=submit]:hover {
   color: #FFDE7D;
@@ -467,4 +457,16 @@ footer.mastfoot {
 
 .big-space {
   /*margin-top: 80px;*/
+}
+
+.join-btn {
+  color: #212529;
+  border: .1rem solid #212529;
+  background: none;
+}
+
+.join-btn:hover {
+  cursor: pointer;
+  color: #FFDE7D;
+  background-color: #212529;
 }
