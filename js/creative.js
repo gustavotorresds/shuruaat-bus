@@ -58,20 +58,20 @@
     midClick: true
   });
 
-  setTimeout(function(){
-    $.magnificPopup.open({
-          items:{
-              src: '#start-popup',
-              type: 'inline'
-          },
-          fixedContentPos: true,
-          fixedBgPos: true,
-          overflowY: 'auto',
-          closeBtnInside: true,
-          preloader: false,
-          midClick: true,
-          removalDelay: 300,
-          mainClass: 'mfp-fade'
-      });
-  }, 2000);
+  // setTimeout(function(){
+  //   $.magnificPopup.open({
+  //         items:{
+  //             src: '#start-popup',
+  //             type: 'inline'
+  //         },
+  //         fixedContentPos: true,
+  //         fixedBgPos: true,
+  //         overflowY: 'auto',
+  //         closeBtnInside: true,
+  //         preloader: false,
+  //         midClick: true,
+  //         removalDelay: 300,
+  //         mainClass: 'mfp-fade'
+  //     });
+  // }, 2000);
 })(jQuery);
